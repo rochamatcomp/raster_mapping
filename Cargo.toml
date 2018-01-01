@@ -1,0 +1,16 @@
+[package]
+name = "raster-mapping"
+version = "0.1.0"
+authors = ["André Rocha <rocha.matcomp@gmail.com>"]
+repository = "https://github.com/rochamatcomp"
+license = "MIT"
+readme = "README.md"
+keywords = ["geoprocessing", "raster", "mathematics"]
+categories = ["algorithms", "science"]
+description = "Raster mapping."
+
+[dependencies]
+gdal = "*"
+ndarray = "*"
+approx = {git = "https://github.com/brendanzab/approx"}
+itertools = "*"
